@@ -1,0 +1,33 @@
+{
+  "name": "crypto-symmetric",
+  "version": "0.0.1",
+  "description": "A suite of custom crypto functions",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cluster-labs/crypto-symmetric.git"
+  },
+  "keywords": [
+    "AES",
+    "crypto",
+    "IPFS",
+    "encryption",
+    "decryption"
+  ],
+  "author": "vasa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cluster-labs/crypto-symmetric/issues"
+  },
+  "homepage": "https://github.com/cluster-labs/crypto-symmetric#readme",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
